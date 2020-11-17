@@ -28,10 +28,12 @@ func NewLsLocal(password string, listenAddr, remoteAddr string) (*LsLocal, error
 	}
 	structListenAddr, err := net.ResolveTCPAddr("tcp", listenAddr)
 	if err != nil {
+		log.Fatalln(err)
 		return nil, err
 	}
 	structRemoteAddr, err := net.ResolveTCPAddr("tcp", remoteAddr)
 	if err != nil {
+		log.Fatalln(err)
 		return nil, err
 	}
 	return &LsLocal{
