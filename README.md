@@ -12,3 +12,5 @@
 ![local-start](https://github.com/elo5/myproxy/blob/main/assets/server-started.png)
 
 ![local-start](https://github.com/elo5/myproxy/blob/main/assets/local-started.png)
+
+注意：代理类型为socks5
