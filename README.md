@@ -1,5 +1,5 @@
 # myproxy
-照着lightsocket工程自己写了一遍，编译及部署至自己的vps，并成功运行
+照着lightsocks工程自己写了一遍，编译及部署至自己的vps，并成功运行
 
 1. 使用 `uname -a` 查看vps的系统内核版本等信息，如果是`x86_64`那么`GOARCH`应该是`amd64`
 
