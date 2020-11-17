@@ -9,3 +9,6 @@
 
 3. 上传至服务端，使用等google cloud， SSH窗口，设置图标带有上传文件菜单，将编译后的main上传
 
+![local-start](https://github.com/elo5/myproxy/blob/main/assets/server-started.png)
+
+![local-start](https://github.com/elo5/myproxy/blob/main/assets/local-started.png)
