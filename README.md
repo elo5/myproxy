@@ -16,7 +16,7 @@
 注意：代理类型为socks5
 
 # 编译手机库
-## 如果你喜欢，也可以继续折腾。比如，编译aar包给安卓使用
+## 如果你喜欢，也可以继续折腾。
 
 1. 直接编译成.so (在我发现gomobile之前)，步骤也很简单, 需要使用//export 方法名声明方法，必须包含main方法（实现可以为空）必须import “C”
 
@@ -60,3 +60,9 @@ gomobile bind --target=android .
 ```
 
 3. 编译成aar后新建android项目运行，电脑连接手机ip及端口，代理成功！
+
+4. 编译framework给ios项目使用
+```bash
+gomobile bind --target=ios .
+```
+会报错，错误一般谷歌都能解决
